@@ -1,0 +1,1696 @@
+@import "reset.css";
+
+/* * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+  body
+
+  {
+
+  background: #181818;
+  width: 100vw;
+  height: 450.83vw;
+  position: relative;
+  }
+  .header  {
+    background: url('../images/p1.jpg');
+    display: block;
+    background-size: 100% auto;
+    height: 54.861vw;
+    position: relative;
+  }
+
+  /* .p1 {
+  position: absolute;
+  width: 100vw;
+  height: 54.861vw;
+  left: 0vw;
+  top: 0vw;
+  } */
+  @font-face {
+    font-family: 'Practice-font';
+    src: url('../fonts/Practice-font.otf');
+  }
+  @font-face {
+    font-family: 'TT Norms';
+    src: url('../fonts/TTNorms-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'TT Norms-Bold';
+    src: url('../fonts/TTNorms-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'TT Norms-Medium';
+    src: url('../fonts/TTNorms-Medium.ttf');
+  }
+  @font-face {
+    font-family: 'TT Norms-ExtraBold';
+    src: url('../fonts/TTNorms-ExtraBold.ttf');
+  }
+  .text1 {
+  text-decoration: none;
+  position: absolute;
+  width: 4.583vw;
+  height: 1.944vw;
+  left: 53.403vw;
+  top: 2.847vw;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.67vw;
+  line-height: 1.944vw;
+
+  color: #FFFFFF;
+}
+  .text2 {
+  position: absolute;
+  text-decoration: none;
+  width: 4.653vw;
+  height: 1.944vw;
+  left: 62.986vw;
+  top: 2.847vw;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.67vw;
+  line-height: 1.944vw;
+
+  color: #FFFFFF;
+}
+  .text3 {
+  position: absolute;
+  text-decoration: none;
+  width: 5.55vw;
+  height: 1.944vw;
+  left: 72.638vw;
+  top: 2.847vw;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.67vw;
+  line-height: 1.944vw;
+
+  color: #FFFFFF;
+}
+  .text4 {
+  position: absolute;
+  text-decoration: none;
+  width: 8.472vw;
+  height: 1.944vw;
+  left: 83.194vw;
+  top: 2.847vw;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.67vw;
+  line-height: 1.944vw;
+
+  color: #FFFFFF;
+}
+  .text5 {
+  position: absolute;
+  width: 48.61vw;
+  height: 7.77vw;
+  left: 3.194vw;
+  top: 36.597vw;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 3.88vw;
+
+color: #FFFFFF;
+}
+  .text6 {
+  position: absolute;
+  width: 7.5vw;
+  height: 1.875vw;
+  left: 4.653vw;
+  top: 47.708vw;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.667vw;
+  line-height: 1.875vw;
+  text-align: center;
+
+color: #45F7E1;
+}
+  .logo {
+  position: absolute;
+  width: 14.027vw;
+  height: 6.805vw;
+  left: 3.194vw;
+  top: 2.847vw;
+}
+
+  .fr1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 10.833vw;
+  height: 4.168vw;
+  left: 2.986vw;
+  top: 46.527vw;
+
+  /* флекс */
+
+  /* border: 0.069vw solid #45F7E1;
+  border-radius: 0.625vw; */
+}
+  .p2 {
+  position: absolute;
+  width: 26.805vw;
+  height: 21.667vw;
+  left: 8.4027vw;
+  top: 69.166vw;
+}
+  .p3 {
+    position: absolute;
+    width: 26.805vw;
+    height: 21.667vw;
+    left: 36.597vw;
+    top: 69.166vw;
+}
+  .p4 {
+    position: absolute;
+    width: 26.805vw;
+    height: 21.667vw;
+    left: 64.791vw;
+    top: 69.166vw;
+}
+  .text7 {
+  position: absolute;
+  width: 2.638vw;
+  height: 1.944vw;
+  left: 8.4027vw;
+  top: 66.25vw;
+
+  font-family: 'TT Norms-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.67vw;
+  line-height: 1.944vw;
+
+color: #00FFDF;
+}
+.text8 {
+position: absolute;
+width: 11.597vw;
+height: 1.944vw;
+left: 36.597vw;
+top: 66.25vw;
+
+font-family: 'TT Norms-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 1.67vw;
+line-height: 1.944vw;
+
+color: #00FFDF;
+}
+.text9 {
+position: absolute;
+width: 7.388vw;
+height: 1.944vw;
+left: 64.7916vw;
+top: 66.25vw;
+
+font-family: 'TT Norms-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 1.67vw;
+line-height: 1.944vw;
+
+color: #00FFDF;
+}
+.text10 {
+  position: absolute;
+  width: 65.83vw;
+  height: 7.1527vw;
+  left: 17.083vw;
+  top: 93.33vw;
+
+  font-family: 'TT Norms-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.77vw;
+  line-height: 3.2638vw;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.text11 {
+position: absolute;
+width: 34.375vw;
+height: 1.944vw;
+left: 33.88vw;
+top: 101.3194vw;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 1.67vw;
+line-height: 1.944vw;
+text-align: center;
+
+  color: #FFFFFF;
+}
+.p5 {
+  position: absolute;
+  width: 100vw;
+  height: 38.75vw;
+  left: 0vw;
+  top: 112.9166vw;
+}
+.text12 {
+position: absolute;
+width: 33.8194vw;
+height: 7.77vw;
+left: 60.2083vw;
+top: 140.277vw;
+
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vw;
+line-height: 3.88vw;
+
+color: #FFFFFF;
+}
+.text13 {
+  position: absolute;
+  width: 27.0138vw;
+  height: 3.8194vw;
+  left: 15.277vw;
+  top: 161.0416vw;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 2.8472vw;
+
+  color: #FFFFFF;
+}
+.text14 {
+position: absolute;
+width: 44.5138vw;
+height: 1.944vw;
+left: 15.277vw;
+top: 165.7638vw;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 1.66vw;
+line-height: 1.944vw;
+
+  color: #FFFFFF;
+}
+.p6 {
+position: absolute;
+width: 19.7916vw;
+height: 21.805vw;
+left: 8.4027vw;
+top: 177.0138vw;
+}
+.p7 {
+  position: absolute;
+  width: 49.305vw;
+  height: 33.125vw;
+  left: 42.2916vw;
+  top: 176.11vw;
+  border: 0.0694vw solid #00FFDF;
+}
+.text15 {
+  position: absolute;
+  width: 16.1805vw;
+  height: 1.944vw;
+  left: 8.4027vw;
+  top: 199.166vw;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.66vw;
+  line-height: 1.944vw;
+
+  color: #FFFFFF;
+}
+.text16 {
+  position: absolute;
+  width: 17.347vw;
+  height: 3.888vw;
+  left: 8.4027vw;
+  top: 201.11vw;
+
+  font-family: 'TT Norms-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.66vw;
+  line-height: 1.944vw;
+
+  color: #FFFFFF;
+}
+.text17 {
+  position: absolute;
+  width: 27.0138vw;
+  height: 3.8194vw;
+  left: 15.277vw;
+  top: 218.61vw;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 2.8472vw;
+
+  color: #FFFFFF;
+}
+.text18 {
+position: absolute;
+width: 51.944vw;
+height: 1.944vw;
+left: 15.277vw;
+top: 223.61vw;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 1.66vw;
+line-height: 1.944vw;
+
+  color: #FFFFFF;
+}
+.p8 {
+position: absolute;
+width: 17.2916vw;
+height: 30.9027vw;
+left: 8.4027vw;
+top: 233.33vw;
+}
+.p9 {
+position: absolute;
+width: 52.5vw;
+height: 35.416vw;
+left: 38.33vw;
+top: 233.33vw;
+  border: 0.0694vw solid #00FFDF;
+}
+.text19 {
+  position: absolute;
+  width: 16.1805vw;
+  height: 1.944vw;
+  left: 8.4027vw;
+  top: 264.305vw;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25vw;
+  line-height: 1.944vw;
+
+  color: #FFFFFF;
+}
+  .text20 {
+    position: absolute;
+    width: 9.88vw;
+    height: 2.916vw;
+    left: 8.4027vw;
+    top: 266.597vw;
+
+    font-family: 'TT Norms-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.944vw;
+
+    color: #FFFFFF;
+  }
+  .text21 {
+    position: absolute;
+    width: 62.0138vw;
+    height: 4.5138vw;
+    left: 15.277vw;
+    top: 286.66vw;
+
+    font-family: 'Practice-font';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 2.8472vw;
+
+    color: #FFFFFF;
+  }
+  .text22 {
+  position: absolute;
+  width: 51.1805vw;
+  height: 4.44vw;
+  left: 15.277vw;
+  top: 291.1805vw;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.66vw;
+  line-height: 1.944vw;
+
+    color: #FFFFFF;
+  }
+  .fr2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 24.44vw;
+    height: 24.44vw;
+    left: 8.75vw;
+    top: 304.5138vw;
+  }
+  .fr3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 24.44vw;
+    height: 24.44vw;
+    left: 38.055vw;
+    top: 304.5138vw;
+  }
+  .fr4 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 24.44vw;
+    height: 24.44vw;
+    left:  67.5vw;
+    top: 304.5138vw;
+  }
+  .text23 {
+  position: absolute;
+  width: 15.416vw;
+  height: 1.944vw;
+  left: 13.2638vw;
+  top: 331.25vw;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.66vw;
+  line-height: 1.944vw;
+  text-align: center;
+
+    color: #FFFFFF;
+  }
+  .text24 {
+  position: absolute;
+  width: 15.416vw;
+  height: 1.944vw;
+  left: 42.5694vw;
+  top: 331.25vw;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.66vw;
+  line-height: 1.944vw;
+  text-align: center;
+
+    color: #FFFFFF;
+  }
+  .text25 {
+  position: absolute;
+  width: 15.416vw;
+  height: 1.944vw;
+  left: 72.0138vw;
+  top: 331.25vw;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.66vw;
+  line-height: 1.944vw;
+  text-align: center;
+
+    color: #FFFFFF;
+  }
+  .text26 {
+  position: absolute;
+  width: 15.416vw;
+  height: 2.8472vw;
+  left: 13.2638vw;
+  top: 333.1944vw;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 2.8472vw;
+  text-align: center;
+
+    color: #FFFFFF;
+  }
+  .text27 {
+  position: absolute;
+  width: 15.416vw;
+  height: 2.8472vw;
+  left: 42.5694vw;
+  top: 333.1944vw;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 2.8472vw;
+  text-align: center;
+
+    color: #FFFFFF;
+  }
+  .text28 {
+  position: absolute;
+  width: 15.416vw;
+  height: 2.8472vw;
+  left: 72.0138vw;
+  top: 333.1944vw;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 2.8472vw;
+  text-align: center;
+
+    color: #FFFFFF;
+  }
+  .text29 {
+    position: absolute;
+    width: 62.0138vw;
+    height: 4.5138vw;
+    left: 15.277vw;
+    top: 350.4166vw;
+
+    font-family: 'Practice-font';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 2.8472vw;
+
+    color: #FFFFFF;
+  }
+  .text30 {
+  position: absolute;
+  width: 43.125vw;
+  height: 4.44vw;
+  left: 15.277vw;
+  top: 355.625vw;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.66vw;
+  line-height: 1.944vw;
+
+    color: #FFFFFF;
+  }
+  .p10 {
+  position: absolute;
+  width: 22.47708vw;
+  height: 22.47708vw;
+  left: 9.7vw;
+  top: 305.50694vw;
+  }
+  .p11 {
+  position: absolute;
+  width: 22.47708vw;
+  height: 22.47708vw;
+  left: 39.04027vw;
+  top: 305.50694vw;
+  }
+  .p12 {
+  position: absolute;
+  width: 22.47708vw;
+  height: 22.47708vw;
+  left: 68.35416vw;
+  top: 305.50694vw;
+  }
+  .text31 {
+  position: absolute;
+  width: 9.444vw;
+  height: 1.5972vw;
+  left: 11.0416vw;
+  top: 382.3611vw;
+
+  font-family: 'TT Norms-ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 1.3194vw;
+line-height: 1.1944vw;
+text-align: center;
+
+    color: #FFFFFF;
+  }
+  .text32 {
+  position: absolute;
+  width: 9.444vw;
+  height: 1.5972vw;
+  left: 28.4027vw;
+  top: 382.3611vw;
+
+  font-family: 'TT Norms-ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 1.3194vw;
+line-height: 1.1944vw;
+text-align: center;
+
+    color: #FFFFFF;
+  }
+  .text33 {
+  position: absolute;
+  width: 9.444vw;
+  height: 1.5972vw;
+  left: 45.625vw;
+  top: 382.3611vw;
+
+  font-family: 'TT Norms-ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 1.3194vw;
+line-height: 1.1944vw;
+text-align: center;
+
+    color: #FFFFFF;
+  }
+  .text34 {
+  position: absolute;
+  width: 9.444vw;
+  height: 1.5972vw;
+  left: 62.916vw;
+  top: 382.3611vw;
+
+  font-family: 'TT Norms-ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 1.3194vw;
+line-height: 1.1944vw;
+text-align: center;
+
+    color: #FFFFFF;
+  }
+  .text35 {
+  position: absolute;
+  width: 9.444vw;
+  height: 1.5972vw;
+  left: 80.2083vw;
+  top: 382.3611vw;
+
+  font-family: 'TT Norms-ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 1.3194vw;
+line-height: 1.1944vw;
+text-align: center;
+
+    color: #FFFFFF;
+  }
+.p13 {
+position: absolute;
+width: 14.0972vw;
+height: 14.0972vw;
+left: 8.75vw;
+top: 367.6388vw;
+}
+.p14 {
+position: absolute;
+width: 14.0972vw;
+height: 14.0972vw;
+left: 26.0416vw;
+top: 367.6388vw;
+}
+.p15 {
+position: absolute;
+width: 14.0972vw;
+height: 14.0972vw;
+left: 43.33vw;
+top: 367.6388vw;
+}
+.p16 {
+position: absolute;
+width: 14.0972vw;
+height: 14.0972vw;
+left: 60.55vw;
+top: 367.6388vw;
+}
+.p17 {
+position: absolute;
+width: 14.0972vw;
+height: 14.0972vw;
+left: 77.8472vw;
+top: 367.6388vw;
+}
+.fr5 {
+box-sizing: border-box;
+position: absolute;
+width: 18.75vw;
+height: 4.166vw;
+left: 40.625vw;
+top: 401.666vw;
+}
+  .text36 {
+position: absolute;
+width: 15.555vw;
+height: 2.0833vw;
+left: 42.22vw;
+top:402.7083vw;
+
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 1.666vw;
+line-height: 1.875vw;
+
+color: #45F7E1;
+  }
+.logo1 {
+position: absolute;
+width: 9.027vw;
+height: 4.375vw;
+left: 3.8194vw;
+top: 442.9861vw;
+}
+.text37 {
+position: absolute;
+width: 8.4027vw;
+height: 2.0138vw;
+left: 9.0277vw;
+top: 422.4305vw;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 1.666vw;
+line-height: 1.7361vw;
+
+color: #FFFFFF;
+}
+.text38 {
+position: absolute;
+width: 14.027vw;
+height: 2.0138vw;
+left: 9.0277vw;
+top: 425.83vw;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 1.666vw;
+line-height: 1.7361vw;
+
+color: #FFFFFF;
+}
+.text39 {
+position: absolute;
+width: 17.5694vw;
+height: 2.0138vw;
+left: 9.0277vw;
+top: 429.2361vw;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 1.666vw;
+line-height: 1.7361vw;
+
+color: #FFFFFF;
+}
+.text40 {
+position: absolute;
+width: 13.194vw;
+height: 2.0138vw;
+left: 41.11vw;
+top: 422.4305vw;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 1.666vw;
+line-height: 1.7361vw;
+
+color: #FFFFFF;
+}
+.text41 {
+position: absolute;
+width: 14.027vw;
+height: 2.0138vw;
+left: 41.11vw;
+top: 425.83vw;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 1.666vw;
+line-height: 1.7361vw;
+
+color: #FFFFFF;
+}
+.text42 {
+position: absolute;
+width: 17.5694vw;
+height: 2.0138vw;
+left: 41.11vw;
+top: 429.2361vw;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 1.666vw;
+line-height: 1.7361vw;
+
+color: #FFFFFF;
+}
+.text43 {
+  display: none;
+}
+.text44 {
+  display: none;
+}
+.text45 {
+  display: none;
+}
+.text46 {
+  display: none;
+}
+.p18 {
+  display: none;
+}
+.p19 {
+  display: none;
+}
+.header2  {
+  background: url('../images/p1.jpg');
+  display: none;
+  background-size: 100% auto;
+  height: 225px;
+  position: relative;
+}
+@media only screen and (max-width: 390px)
+   {
+     .header  {
+       background: url('../images/p1.jpg');
+       display: none;
+       background-size: 100% auto;
+       height: 54.861vw;
+       position: relative;
+     }
+     .header2  {
+       background: url('../images/p1.jpg');
+       display: block;
+       background-size: 100% auto;
+       height: 225px;
+       position: relative;
+     }
+     /* .p1 {
+   position: absolute;
+   width: 390px;
+   height: 225px;
+   left: 0vw;
+   top: 0vw;
+   } */
+ .logo {
+  position: absolute;
+  width: 50px;
+height: 24px;
+left: 10px;
+top: 11px;}
+
+  .text5 {
+    position: absolute;
+    width: 180px;
+    height: 48px;
+    left: 50px;
+    top: 107px;
+
+    font-family: 'Practice-font';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+color: #FFFFFF;
+  }
+  /* .text6 {
+  position: absolute;
+  width: 3.75vw;
+  height: 0.972vw;
+  left:  3.9583vw;
+  top: 12.5vw;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.833vw;
+  line-height:  0.972vw;
+  text-align: center;
+
+  color: #45F7E1;
+  } */
+  .text6 {
+  position: absolute;
+  width: 54px;
+  height: 14px;
+  left: 57px;
+  top: 180px;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #45F7E1;
+  }
+  .fr1{
+    box-sizing: border-box;
+
+position: absolute;
+width: 68px;
+height: 27px;
+left: 50px;
+top: 173px;
+
+  }
+  .text10 {
+position: absolute;
+width: 317px;
+height: 49px;
+left: 37px;
+top: 271px;
+
+font-family: 'TT Norms-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+  }
+  .text11 {
+position: absolute;
+width: 229px;
+height: 14px;
+left: 81px;
+top: 320px;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #FFFFFF;
+  }
+  .p2 {
+position: absolute;
+width: 258px;
+height: 209px;
+left: 66px;
+top: 386px;
+  }
+.p3 {
+position: absolute;
+width: 258px;
+height: 209px;
+left: 66px;
+top: 645px;
+}
+.p4 {
+position: absolute;
+width: 258px;
+height: 209px;
+left: 66px;
+top: 904px;
+}
+.text7 {
+position: absolute;
+width: 25px;
+height: 19px;
+left: 66px;
+top: 360px;
+
+font-family: 'TT Norms-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #00FFDF;
+}
+.text8 {
+position: absolute;
+width: 112px;
+height: 19px;
+left: 66px;
+top: 619px;
+
+font-family: 'TT Norms-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #00FFDF
+}
+.text9 {
+position: absolute;
+width: 62px;
+height: 19px;
+left: 66px;
+top: 878px;
+
+font-family: 'TT Norms-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #00FFDF;
+}
+.p5 {
+position: absolute;
+width: 390px;
+height: 151px;
+left: 0px;
+top: 1223px;
+}
+.text12 {
+position: absolute;
+width: 301px;
+height: 16px;
+left: 45px;
+top: 1354px;
+
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF
+}
+.text13 {
+position: absolute;
+width: 133px;
+height: 16px;
+left: 66px;
+top: 1484px;
+
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF
+}
+.text14 {
+position: absolute;
+width: 229px;
+height: 28px;
+left: 66px;
+top: 1514px;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.p6 {
+position: absolute;
+width: 127px;
+height: 140px;
+left: 49px;
+top: 1569px;
+}
+.text15 {
+position: absolute;
+width: 40px;
+height: 14px;
+left: 49px;
+top: 1717px;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.text16 {
+position: absolute;
+width: 113px;
+height: 28px;
+left: 49px;
+top: 1731px;
+
+font-family: 'TT Norms-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.text43 {
+position: absolute;
+display: block;
+width: 54px;
+height: 14px;
+left: 215px;
+top: 1717px;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.text44 {
+position: absolute;
+display: block;
+width: 128px;
+height: 28px;
+left: 215px;
+top: 1731px;
+
+font-family: 'TT Norms-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+
+}
+.p18 {
+  position: absolute;
+  display: block;
+  width: 127px;
+  height: 140px;
+  left: 215px;
+  top: 1569px;
+}
+.text17 {
+position: absolute;
+width: 133px;
+height: 16px;
+left: 66px;
+top: 1869px;
+
+font-family: 'Practice-font';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+}
+.text18 {
+  position: absolute;
+  width: 223px;
+  height: 28px;
+  left: 66px;
+  top: 1899px;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+
+}
+.p8 {
+  position: absolute;
+  width: 127px;
+  height: 228px;
+  left: 49px;
+  top: 1954px;
+}
+.text19 {
+  position: absolute;
+  width: 49px;
+  height: 14px;
+  left: 49px;
+  top: 2190px;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+}
+.text20 {
+  position: absolute;
+  width: 113px;
+  height: 28px;
+  left: 49px;
+  top: 2204px;
+
+  font-family: 'TT Norms-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+}
+.p19 {
+  position: absolute;
+  display: block;
+  width: 128px;
+  height: 228px;
+  left: 215px;
+  top: 1954px;
+}
+.text44 {
+  position: absolute;
+  width: 128px;
+  height: 28px;
+  left: 215px;
+  top: 1731px;
+
+  font-family: 'TT Norms-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+
+}
+.text45 {
+position: absolute;
+display: block;
+width: 54px;
+height: 14px;
+left: 215px;
+top: 2190px;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.text46 {
+  position: absolute;
+  display: block;
+  width: 128px;
+  height: 28px;
+  left: 215px;
+  top: 2204px;
+
+  font-family: 'TT Norms-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+}
+.text21 {
+  position: absolute;
+  width: 210px;
+  height: 32px;
+  left: 66px;
+  top: 2342px;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #FFFFFF;
+}
+.text22 {
+  position: absolute;
+  width: 251px;
+  height: 42px;
+  left: 66px;
+  top: 2388px;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+}
+.fr2 {
+box-sizing: border-box;
+position: absolute;
+width: 132px;
+height: 132px;
+left: 46px;
+top: 2457px;
+}
+.fr3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  left: 209px;
+  top: 2457px;
+}
+.p10 {
+  position: absolute;
+  width: 118.89px;
+  height: 118.89px;
+  left: 52.55px;
+  top: 2463.55px;
+}
+.p11 {
+  position: absolute;
+  width: 118.89px;
+  height: 118.89px;
+  left: 216px;
+  top: 2464px;
+}
+.text23 {
+  position: absolute;
+  width: 104px;
+  height: 14px;
+  left: 60px;
+  top: 2597px;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+
+}
+.text24 {
+
+  position: absolute;
+  width: 104px;
+  height: 14px;
+  left: 224px;
+  top: 2596px;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+}
+.text26 {
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 87px;
+  top: 2612px;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #FFFFFF;
+}
+.text27 {
+  position: absolute;
+  width: 73px;
+  height: 16px;
+  left: 239px;
+  top: 2612px;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #FFFFFF;
+}
+.text29 {
+  position: absolute;
+  width: 186px;
+  height: 16px;
+  left: 66px;
+  top: 2738px;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #FFFFFF;
+
+}
+.text30 {
+  position: absolute;
+  width: 223px;
+  height: 28px;
+  left: 66px;
+  top: 2768px;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+
+}
+.p13 {
+  position: absolute;
+  width: 127px;
+  height: 127px;
+  left: 49px;
+  top: 2823px;
+}
+.p14 {
+  position: absolute;
+  width: 129px;
+  height: 129px;
+  left: 215px;
+  top: 2823px;
+}
+.text31 {
+  position: absolute;
+  width: 55px;
+  height: 14px;
+  left: 87px;
+  top: 2958px;
+
+  font-family: 'TT Norms-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+}
+.text32{
+  position: absolute;
+  width: 52px;
+  height: 14px;
+  left: 253px;
+  top: 2958px;
+
+  font-family: 'TT Norms-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.text36 {
+  position: absolute;
+  width: 112px;
+  height: 14px;
+  left: 139px;
+  top: 3089px;
+
+  font-family: 'Practice-font';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #45F7E1;
+}
+.fr5 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 132px;
+  height: 28px;
+  left: 129px;
+  top: 3082px;
+}
+.text37{
+  position: absolute;
+  width: 62px;
+  height: 14px;
+  left: 46px;
+  top: 3233px;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+}
+.text38{
+  position: absolute;
+width: 92px;
+height: 14px;
+left: 46px;
+top: 3255px;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.text39 {
+  position: absolute;
+width: 115px;
+height: 14px;
+left: 46px;
+top: 3277px;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.text40 {
+  position: absolute;
+  width: 115px;
+  height: 14px;
+  left: 215px;
+  top: 3233px;
+
+  font-family: 'TT Norms';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+}
+.text41 {
+position: absolute;
+width: 80px;
+height: 14px;
+left: 215px;
+top: 3255px;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.text42 {
+position: absolute;
+width: 80px;
+height: 14px;
+left: 215px;
+top: 3277px;
+
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+.logo1 {
+position: absolute;
+width: 36px;
+height: 18px;
+left: 10px;
+top: 3333px;
+}
+.p7 {
+  display: none;
+}
+.p9 {
+  display: none;
+}
+.p12 {
+  display: none;
+}
+.fr4 {
+  display: none;
+}
+.text25 {
+  display: none;
+}
+.text28 {
+  display: none;
+}
+.p15 {
+  display: none;
+}
+.p16 {
+  display: none;
+}
+.p17 {
+  display: none;
+}
+.text33 {
+  display: none;
+}
+.text34 {
+  display: none;
+}
+.text35 {
+  display: none;
+}
